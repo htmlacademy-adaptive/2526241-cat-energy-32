@@ -1,0 +1,21 @@
+.variant__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.variant__desc {
+  font-size: 14px;
+  line-height: 18px;
+  color: $base-color-text;
+}
+
+.variant__link {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}

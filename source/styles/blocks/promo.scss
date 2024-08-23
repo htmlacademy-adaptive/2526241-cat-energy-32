@@ -1,0 +1,27 @@
+.promo {
+  font-family: "Lato", sans-serif;
+  background-color: $bg-color-base;
+}
+
+.promo__title {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.promo__title--white {
+  color: $base-color-text-light;
+}
+
+.promo__lead {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.promo__lead--white {
+  color: $base-color-text-light;
+}
+
+.promo__button {
+  font-size: 16px;
+  line-height: 20px;
+}

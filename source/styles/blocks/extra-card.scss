@@ -1,0 +1,14 @@
+.extra-card__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.extra-card__quantity,
+.extra-card__price {
+  font-size: 14px;
+  line-height: 14px;
+  color: $base-color-text;
+}

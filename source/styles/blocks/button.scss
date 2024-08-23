@@ -1,0 +1,12 @@
+.button {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: $base-color-text-light;
+  background-color: $bg-color-base;
+  text-transform: uppercase;
+}
+
+.button--light {
+  background-color: #f2f2f2;
+  color: $base-color-text;
+}
