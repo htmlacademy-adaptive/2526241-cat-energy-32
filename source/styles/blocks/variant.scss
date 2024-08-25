@@ -6,6 +6,15 @@
   color: #000000;
 }
 
+.variant__title--slim::before {
+  content:"";
+  width: 50px;
+  height: 53px;
+  background-image: url("../../icons/stack.svg#icon-cat_sit");
+  display: inline-block;
+  background-position: center;
+}
+
 .variant__desc {
   font-size: 14px;
   line-height: 18px;

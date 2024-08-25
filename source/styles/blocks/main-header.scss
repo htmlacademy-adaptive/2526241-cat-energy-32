@@ -1,0 +1,14 @@
+.main-header__logo:hover,
+.main-header__logo-text:hover {
+  opacity: 80%;
+}
+
+.main-header__logo:focus-visible,
+.main-header__logo-text:focus-visible {
+  opacity: 80%;
+}
+
+.main-header__logo:active,
+.main-header__logo-text:active {
+  opacity: 60%;
+}
