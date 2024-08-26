@@ -2,8 +2,41 @@
   font-family: "Oswald", sans-serif;
   font-size: 20px;
   line-height: 20px;
+  text-transform: uppercase;
+}
+
+.nav-menu__list {
+  margin: 0 auto;
+  padding: 0;
 }
 
 .nav-menu__list-link {
   color: #000000;
+}
+
+.nav-menu__list-item {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 125px 24px 124px;
+  border-top: 1px solid rgba(230, 230, 230, 1);
+  white-space: nowrap;
+}
+
+.nav-menu__list-link:hover,
+.nav-menu__list-link:focus-visible {
+  opacity: 60%;
+}
+
+.nav-menu__list-link:active {
+  opacity: 30%;
+}
+
+.nav-menu__list-link--current {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: $bg-color-base;
+  pointer-events: none;
 }

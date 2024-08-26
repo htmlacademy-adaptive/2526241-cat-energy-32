@@ -3,3 +3,25 @@
   line-height: 20px;
   color: $base-color-text;
 }
+
+.footer-container__academy-name:hover,
+.footer-container__academy-name:focus-visible {
+  color: $bg-color-base;
+}
+
+.footer-container__academy-name:active {
+  color: rgba(104, 183, 56, 0.3);
+}
+
+.footer-container__academy-image {
+  @include logo-mask(url("../../icons/stack.svg#icon-academy"), 27px, 34px)
+}
+
+.footer-container__academy-image:hover,
+.footer-container__academy-image:focus-visible {
+  background-color: $bg-color-base;
+}
+
+.footer-container__academy-image:active {
+  background-color: rgba(104, 183, 56, 0.3);
+}

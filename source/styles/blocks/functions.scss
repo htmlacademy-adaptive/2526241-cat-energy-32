@@ -11,3 +11,19 @@
   line-height: 18px;
   color: $base-color-text;
 }
+
+.functions__item--first:before {
+  @include functions-before(url("../../icons/stack.svg#icon-leaf"))
+}
+
+.functions__item--second:before {
+  @include functions-before(url("../../icons/stack.svg#icon-bubble"))
+}
+
+.functions__item--third:before {
+  @include functions-before(url("../../icons/stack.svg#icon-cutlery"))
+}
+
+.functions__item--fouth:before {
+  @include functions-before(url("../../icons/stack.svg#icon-clock"))
+}

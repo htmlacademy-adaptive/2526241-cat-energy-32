@@ -7,3 +7,23 @@
     font-display: swap;
   }
 }
+
+@mixin functions-before($bg-image) {
+  content: "";
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-color: #68B738;
+  background-image: $bg-image;
+  background-size: 25px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin logo-mask($mask-image, $width, $height) {
+  display: flex;
+  mask-image: $mask-image;
+  background-color:#666666;
+  width: $width;
+  height: $height;
+}

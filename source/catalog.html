@@ -15,18 +15,34 @@
 <body class="catalog__body">
   <header class="main-header">
     <nav class="main-header__nav">
-      <a class="main-header__logo" href="#">
-        <img class="main-header__logo-image" width="33" height="38" src="#" alt="Cat Energy лого">
-        <img class="main-header__logo-name" width="101" height="18" src="#" alt="Cat Energy название">
+      <div class="main-header__container">
+      <a class="main-header__logo logo" href="#">
+          <picture>
+            <source media="(min-width: 1440px)" srcset="images/icon-logo-tablet-desc.svg" width="70" height="59"
+              type="image/svg+xml">
+            <source media="(min-width: 768px)" srcset="images/icon-logo-tablet-desc.svg" width="60" height="50"
+              type="image/svg+xml">
+            <img src="images/icon-logo-mobile.svg" width="33" height="33" alt="Логотип Кэт Энерджи">
+          </picture>
+      </a>
+      <a class="main-header__logo-text text-logo" href="#">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="images/icon-logo-text-light.svg" width="118" height="21"
+            type="image/svg+xml">
+          <source media="(min-width: 768px)" srcset="images/icon-logo-text-light.svg" width="101" height="18"
+            type="image/svg+xml">
+          <img src="images/icon-logo-text-black.svg" width="101" height="18" alt="Текстовый логотип Кэт Энерджи">
+        </picture>
       </a>
       <button class="main-header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      </div>
       <div class="main-header__nav-wrapper nav-menu">
         <ul class="nav-menu__list">
           <li class="nav-menu__list-item">
-            <a class="nav-menu__list-link" href="index.html">Главная</a>
+            <a class="nav-menu__list-link " href="index.html">Главная</a>
           </li>
           <li class="nav-menu__list-item">
-            <a class="nav-menu__list-link" href="catalog.html">Каталог</a>
+            <a class="nav-menu__list-link nav-menu__list-link--current" href="catalog.html">Каталог</a>
           </li>
           <li class="nav-menu__list-item">
             <a class="nav-menu__list-link" href="#">Подбор программы</a>
@@ -204,20 +220,29 @@
   </main>
   <footer class="footer">
     <div class="footer__inner footer-container">
-      <a class="footer-container__logo logo" href="#">
-        <img class="logo__name" src="#" width="128" height="24" alt="Cat Energy лого">
+      <a class="footer-container__logo text-logo" href="#">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="images/icon-logo-text-light.svg" width="118" height="21"
+            type="image/svg+xml">
+          <source media="(min-width: 768px)" srcset="images/icon-logo-text-light.svg" width="101" height="18"
+            type="image/svg+xml">
+          <img src="images/icon-logo-text-black.svg" width="101" height="18" alt="Текстовый логотип Кэт Энерджи">
+        </picture>
       </a>
       <ul class="footer-container__social-list social">
-        <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Вконтакте</span></a>
+        <li class="social__item"><a class="social__link social__link--vk" href="vk.com"><span
+              class="visually-hidden">Вконтакте</span></a>
         </li>
-        <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Инстаграм</span></a>
+        <li class="social__item"><a class="social__link social__link--yt" href="#"><span
+              class="visually-hidden">Youtube</span></a>
         </li>
-        <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+        <li class="social__item"><a class="social__link social__link--tg" href="#"><span
+              class="visually-hidden">Телеграм</span></a></li>
       </ul>
       <a class="footer-container__academy-name" href="#">HTML Academy</a>
-      <a class="footer-container__academy-image" href="#"><img src="#" width="27" height="34" alt="Логотип Академии"></a>
+      <a class="footer-container__academy-image" href="#"><span class="visually-hidden">HTML-Academy</span></a>
     </div>
-  </footer>
+  </footer> 
 </body>
 
 </html>

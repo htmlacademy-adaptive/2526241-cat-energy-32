@@ -1,0 +1,26 @@
+.social__link--vk {
+  @include logo-mask(url("../../icons/stack.svg#icon-vk"), 27px, 17px)
+}
+
+.social__link--yt {
+  @include logo-mask(url("../../icons/stack.svg#icon-yt"), 24px, 19px)
+}
+
+.social__link--tg {
+  @include logo-mask(url("../../icons/stack.svg#icon-tg"), 20px, 18px)
+}
+
+.social__link--vk:hover,
+.social__link--yt:hover,
+.social__link--tg:hover,
+.social__link--vk:focus-visible,
+.social__link--yt:focus-visible,
+.social__link--tg:focus-visible {
+  background-color: $bg-color-base;
+}
+
+.social__link--vk:active,
+.social__link--yt:active,
+.social__link--tg:active {
+  background-color: rgba(104, 183, 56, 0.3);
+}
