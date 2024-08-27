@@ -1,9 +1,10 @@
 .promo {
   font-family: "Lato", sans-serif;
-  background-color: $bg-color-base;
 }
 
 .promo__title {
+  margin: 0;
+  padding-top: 27px;
   font-size: 36px;
   line-height: 36px;
   font-weight: 400;
@@ -15,8 +16,13 @@
 }
 
 .promo__lead {
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   line-height: 14px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 25px;
+
 }
 
 .promo__lead--white {
@@ -26,4 +32,20 @@
 .promo__button {
   font-size: 16px;
   line-height: 20px;
+  margin-top: 138px;
+  padding: 10px 64px;
+  border: 0;
+}
+
+.promo__wrapper {
+  background-image: linear-gradient((rgba(104, 183, 56, 0.85)), rgba(69, 149, 34, 0.85)), url("../../images/cat-background-mobile@1x.jpg");
+  position: relative;
+  padding-bottom: 164px;
+  text-align: center;
+}
+
+.promo__image {
+  position: absolute;
+  left: 20px;
+  top: 170px;
 }

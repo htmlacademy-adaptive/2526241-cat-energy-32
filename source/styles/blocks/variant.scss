@@ -1,9 +1,20 @@
+.variant__wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .variant__title {
   font-family: "Oswald", sans-serif;
   font-size: 24px;
   line-height: 37px;
   font-weight: 400;
   color: #000000;
+  margin: 0;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 
 .variant__title--slim::before {
@@ -13,6 +24,7 @@
   background-image: url("../../icons/stack.svg#icon-cat_sit");
   display: inline-block;
   background-position: center;
+  margin-right: 20px;
 }
 
 .variant__title--mass:before {
@@ -22,6 +34,7 @@
   background-image: url("../../icons/stack.svg#icon-cat_walk");
   display: inline-block;
   background-position: center;
+  margin-right: 12px;
 }
 
 .variant__desc {
@@ -68,6 +81,11 @@
 .variant__link--mass:hover:after {
   width: 32px;
   height: 10px;
+}
+
+.variant__item {
+  background-color: #f2f2f2;
+  padding: 24px 20px 22px 20px;
 }
 
 

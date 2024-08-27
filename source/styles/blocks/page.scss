@@ -6,7 +6,19 @@
 
 .page__body {
   background-color: #ffffff;
-  max-width: 320px;
+  width: 320px;
   margin: 0 auto;
   padding: 0;
+}
+
+@media (min-width: $desktop-width) {
+  .page__body {
+    width: 1440px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page__body {
+    width: 768px;
+  }
 }

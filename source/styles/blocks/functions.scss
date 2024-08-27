@@ -1,15 +1,39 @@
+.functions__wrapper {
+  padding:20px 20px 49px 20px;
+}
+
 .functions__title {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .functions__list {
+  margin: 0;
+  padding: 0;
   font-size: 14px;
   line-height: 18px;
   color: $base-color-text;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.functions__item {
+  display: grid;
+  grid-template-columns: 60px auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.functions__item-desk {
+  margin: 0;
 }
 
 .functions__item--first:before {

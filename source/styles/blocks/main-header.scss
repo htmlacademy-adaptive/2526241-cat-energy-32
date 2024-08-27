@@ -17,12 +17,26 @@
   opacity: 60%;
 }
 
+@media (min-width:$tablet-width) {
+  .main-header__toggle {
+    display: none;
+  }
+}
+
 .main-header__container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 13px;
   padding: 13px 21px 14px 21px;
+}
+
+@media (min-width:$tablet-width) {
+  .main-header__container {
+    width: 174px;
+    justify-content: left;
+    padding: 0;
+  }
 }
 
 .main-header__logo-text {
@@ -33,4 +47,17 @@
 .main-header__nav-wrapper {
   margin: 0 auto;
   padding: 0;
+}
+
+@media (min-width:$tablet-width) {
+  .main-header__nav-wrapper {
+    display: flex;
+  }
+}
+
+@media (min-width:$tablet-width) {
+  .main-header__nav {
+    display: flex;
+    margin: 0 auto;
+  }
 }

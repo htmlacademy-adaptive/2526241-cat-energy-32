@@ -16,7 +16,7 @@
   <header class="main-header">
     <nav class="main-header__nav">
       <div class="main-header__container">
-      <a class="main-header__logo logo" href="#">
+        <a class="main-header__logo logo" href="#">
           <picture>
             <source media="(min-width: 1440px)" srcset="images/icon-logo-tablet-desc.svg" width="70" height="59"
               type="image/svg+xml">
@@ -24,17 +24,17 @@
               type="image/svg+xml">
             <img src="images/icon-logo-mobile.svg" width="33" height="33" alt="Логотип Кэт Энерджи">
           </picture>
-      </a>
-      <a class="main-header__logo-text text-logo" href="#">
-        <picture>
-          <source media="(min-width: 1440px)" srcset="images/icon-logo-text-light.svg" width="118" height="21"
-            type="image/svg+xml">
-          <source media="(min-width: 768px)" srcset="images/icon-logo-text-light.svg" width="101" height="18"
-            type="image/svg+xml">
-          <img src="images/icon-logo-text-black.svg" width="101" height="18" alt="Текстовый логотип Кэт Энерджи">
-        </picture>
-      </a>
-      <button class="main-header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        </a>
+        <a class="main-header__logo-text text-logo" href="#">
+          <picture>
+            <source media="(min-width: 1440px)" srcset="images/icon-logo-text-light.svg" width="118" height="21"
+              type="image/svg+xml">
+            <source media="(min-width: 768px)" srcset="images/icon-logo-text-light.svg" width="101" height="18"
+              type="image/svg+xml">
+            <img src="images/icon-logo-text-black.svg" width="101" height="18" alt="Текстовый логотип Кэт Энерджи">
+          </picture>
+        </a>
+        <button class="main-header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       </div>
       <div class="main-header__nav-wrapper nav-menu">
         <ul class="nav-menu__list">
@@ -64,8 +64,8 @@
           <img class="promo__image" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x"
             width="280" height="270" alt="Фото Cat Energy PRO 500 г с курицей">
         </picture>
-        <button class="promo__button button" type="button">Подобрать программу </button>
       </div>
+      <button class="promo__button button" type="button">Подобрать программу </button>
     </header>
     <section class="main-container__variant variant">
       <div class="variant__wrapper">
@@ -89,7 +89,7 @@
         <h2 class="functions__title">Как это работает</h2>
         <ul class="functions__list">
           <li class="functions__item functions__item--first">
-            <p>Функциональное питание
+            <p class="functions__item-desk">Функциональное питание
               содержит только полезные
               питательные вещества.</p>
           </li>
@@ -115,28 +115,32 @@
             <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
               Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит
               по 16 часов в день.</p>
-            <div class="example__item">
-              <span class="example__quant">5 кг</span>
-              <span class="example__qual">снижение веса</span>
-            </div>
-            <div class="example__item">
-              <span class="example__quant">60 дней</span>
-              <span class="example__qual">затрачено времени</span>
+            <div class="example__table">
+              <div class="example__item">
+                <span class="example__quant">5 кг</span>
+                <span class="example__qual">снижение веса</span>
+              </div>
+              <div class="example__item">
+                <span class="example__quant">60 дней</span>
+                <span class="example__qual">затрачено времени</span>
+              </div>
             </div>
             <span class="example__sum">Затраты на питание: 15 000 РУБ.</span>
           </div>
         </div>
         <div class="example__images">
           <picture>
-            <source width="560" height="512" type="image/jpg" media="(min-width:768px)"
-              srcset="images/cat-before-tablet@1x.jpg 1x, images/cat-before-tablet@2x.jpg 2x">
-            <img class="example__image" src="images/cat-before-mobile@1x.jpg"
-              srcset="images/cat-before-mobile@2x.jpg 2x" width="280" height="256" alt="Ваш кот до">
+            <source media="(min-width:768px)"
+              srcset="images/cat-before-tablet@1x.png 1x, images/cat-before-tablet@2x.png 2x" type="image/png"
+              width="560" height="512">
+            <img class="example__image" src="images/cat-before-mobile@1x.png"
+              srcset="images/cat-before-mobile@2x.png 2x" width="280" height="256" alt="Ваш кот до">
           </picture>
           <picture>
-            <source width="560" height="512" type="image/jpg" media="(min-width:768px)"
-              srcset="images/cat-after-tablet@1x.jpg 1x, images/cat-after-tablet@2x.jpg 2x">
-            <img class="example__image" src="images/cat-after-mobile@1x.jpg" srcset="images/cat-after-mobile@2x.jpg 2x"
+            <source media="(min-width:768px)"
+              srcset="images/cat-after-tablet@1x.png 1x, images/cat-after-tablet@2x.png 2x" type="image/png" width="560"
+              height="512">
+            <img class="example__image" src="images/cat-after-mobile@1x.png" srcset="images/cat-after-mobile@2x.png 2x"
               width="280" height="256" alt="Ваш кот после">
           </picture>
         </div>
