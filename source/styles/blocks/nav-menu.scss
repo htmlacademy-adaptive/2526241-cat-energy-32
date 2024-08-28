@@ -5,6 +5,13 @@
   text-transform: uppercase;
 }
 
+@media (min-width:$tablet-width) {
+  .nav-menu {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
 .nav-menu__list {
   margin: 0 auto;
   padding: 0;

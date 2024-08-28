@@ -42,7 +42,7 @@
             <a class="nav-menu__list-link nav-menu__list-link--current" href="index.html">Главная</a>
           </li>
           <li class="nav-menu__list-item">
-            <a class="nav-menu__list-link" href="catalog.html">Каталог</a>
+            <a class="nav-menu__list-link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="nav-menu__list-item">
             <a class="nav-menu__list-link" href="#">Подбор программы</a>
@@ -54,8 +54,8 @@
   <main class="main-container">
     <header class="main-container__header promo">
       <div class="promo__wrapper">
-        <h1 class="promo__title promo__title--white">Функциональное питание для котов</h1>
-        <p class="promo__lead promo__lead--white">Занялся собой? Займись котом</p>
+        <h1 class="promo__title">Функциональное питание для котов</h1>
+        <p class="promo__lead">Занялся собой? Займись котом</p>
         <picture>
           <source width="552" height="499" type="image/png" media="(min-width:1440px)"
             srcset="images/index-can-desktop@1x.png 1x, images/index-can-desktop@2x.png 2x">
@@ -159,8 +159,11 @@
           <span>ул. Большая Конюшенная, д. 19/8</span>
           <span>Санкт-Петербург</span>
         </p>
-        <div class="contacts__map"></div>
       </address>
+      <div class="contacts__map">
+        <img class="contacts__map-image" src="images/map-mobile@1x.png" srcset="images/map-mobile@2x.png 2x" width="320"
+          height="362" alt="Карта">
+      </div>
     </article>
   </main>
   <footer class="footer">
@@ -184,8 +187,10 @@
         <li class="social__item"><a class="social__link social__link--tg" href="#"><span
               class="visually-hidden">Телеграм</span></a></li>
       </ul>
-      <a class="footer-container__academy-name" href="#">HTML Academy</a>
-      <a class="footer-container__academy-image" href="#"><span class="visually-hidden">HTML-Academy</span></a>
+      <div class="footer-container__academy-wrapper">
+        <a class="footer-container__academy-name" href="#">HTML Academy</a>
+        <a class="footer-container__academy-image" href="#"><span class="visually-hidden">HTML-Academy</span></a>
+      </div>
     </div>
   </footer>
 </body>
