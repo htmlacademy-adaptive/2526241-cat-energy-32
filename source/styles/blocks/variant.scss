@@ -5,6 +5,14 @@
   gap: 20px;
 }
 
+@media (min-width:$tablet-width) {
+  .variant__wrapper {
+    gap: 30px;
+  }
+}
+
+
+
 .variant__title {
   font-family: "Oswald", sans-serif;
   font-size: 24px;
@@ -17,6 +25,14 @@
   align-items: center;
 }
 
+@media (min-width:$tablet-width) {
+  .variant__title {
+    font-size: 36px;
+    line-height: 36px;
+    grid-column: 1;
+  }
+}
+
 .variant__title--slim::before {
   content:"";
   width: 50px;
@@ -25,6 +41,16 @@
   display: inline-block;
   background-position: center;
   margin-right: 20px;
+}
+
+@media (min-width:$tablet-width) {
+  .variant__title--slim::before {
+    width: 200px;
+    height: 211px;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+  }
 }
 
 .variant__title--mass:before {
@@ -37,10 +63,28 @@
   margin-right: 12px;
 }
 
+@media (min-width:$tablet-width) {
+  .variant__title--mass::before {
+    width: 268px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+  }
+}
+
 .variant__desc {
   font-size: 14px;
   line-height: 18px;
   color: $base-color-text;
+}
+
+@media (min-width:$tablet-width) {
+  .variant__desc {
+    font-size: 16px;
+    line-height: 24px;
+    grid-column: 1;
+  }
 }
 
 .variant__link {
@@ -49,6 +93,14 @@
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
+}
+
+@media (min-width:$tablet-width) {
+  .variant__link {
+    font-size: 20px;
+    line-height: 30px;
+    grid-column: 1;
+  }
 }
 
 .variant__link:active {
@@ -86,6 +138,15 @@
 .variant__item {
   background-color: #f2f2f2;
   padding: 24px 20px 22px 20px;
+}
+
+@media (min-width:$tablet-width) {
+  .variant__item {
+    padding: 77px 0 53px 53px;
+    display: grid;
+    grid-template-columns: 1fr 330px;
+    position: relative;
+  }
 }
 
 
