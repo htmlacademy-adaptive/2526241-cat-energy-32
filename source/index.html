@@ -129,6 +129,7 @@
           </div>
         </div>
         <div class="example__images">
+          <div class="example__images-before">
           <picture>
             <source media="(min-width:768px)"
               srcset="images/cat-before-tablet@1x.png 1x, images/cat-before-tablet@2x.png 2x" type="image/png"
@@ -136,6 +137,7 @@
             <img class="example__image" src="images/cat-before-mobile@1x.png"
               srcset="images/cat-before-mobile@2x.png 2x" width="280" height="256" alt="Ваш кот до">
           </picture>
+          </div>
           <picture>
             <source media="(min-width:768px)"
               srcset="images/cat-after-tablet@1x.png 1x, images/cat-after-tablet@2x.png 2x" type="image/png" width="560"
@@ -143,11 +145,7 @@
             <img class="example__image" src="images/cat-after-mobile@1x.png" srcset="images/cat-after-mobile@2x.png 2x"
               width="280" height="256" alt="Ваш кот после">
           </picture>
-        </div>
-        <div class="example__switcher switcher">
-          <button class="switcher__button" type="button">Было</button>
-          <input class="switcher__range" type="range" name="switcher__range">
-          <button class="switcher__button" type="button">Стало</button>
+          <button class="example__images-slider" type="button"></button>
         </div>
       </section>
     </section>

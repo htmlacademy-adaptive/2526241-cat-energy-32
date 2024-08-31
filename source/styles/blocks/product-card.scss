@@ -1,3 +1,14 @@
+.product-card {
+  @media (min-width:$tablet-width) {
+    background-color: #f2f2f2;
+    max-width: 324px;
+  }
+
+  @media (min-width:$desktop-width) {
+    max-width: 245px;
+  } 
+}
+
 .product-card__title {
   font-family: "Oswald", sans-serif;
   font-weight: 400;

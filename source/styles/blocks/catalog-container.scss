@@ -13,3 +13,25 @@
   line-height: 24px;
   color: #000000;
 }
+
+.catalog-container__wrapper {
+  @media (min-width:$tablet-width) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+}
+
+.catalog-container__extra-wrapper {
+  @media (min-width:$tablet-width) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width:$tablet-width) {
+    display: grid;
+    grid-template-columns: 895px 245px;
+    gap: 81px;
+  }
+}

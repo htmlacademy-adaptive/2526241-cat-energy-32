@@ -30,13 +30,17 @@
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 20px;
-}
 
-@media (min-width:$tablet-width) {
-  .functions__list {
+  @media (min-width:$tablet-width) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+
+  @media (min-width:$desktop-width) {
+    display: grid;
+    grid-template-columns: 230px 246px 248px 250px;
+    grid-template-rows: none;;
   }
 }
 
@@ -44,7 +48,6 @@
   .functions__item {
     display: grid;
     grid-template-rows: 80px 1fr;
-    padding-right: 80px;
   }
 }
 

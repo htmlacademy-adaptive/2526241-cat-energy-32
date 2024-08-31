@@ -12,3 +12,11 @@
   line-height: 14px;
   color: $base-color-text;
 }
+
+.extra-card {
+  @media (min-width:$tablet-width) {
+    display: grid;
+    grid-template-columns: auto 132px 50px;
+    grid-template-rows: 20px 40px;
+  }
+}
