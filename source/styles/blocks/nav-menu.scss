@@ -3,12 +3,21 @@
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
-}
+  background-color: #ffffff;
+  position: absolute;
+  width: 320px;
+  z-index: 1;
 
-@media (min-width:$tablet-width) {
-  .nav-menu {
+  @media (min-width:$tablet-width) {
     font-size: 18px;
     line-height: 24px;
+    position: static;
+  }
+}
+
+.nav-menu--closed {
+  @media (max-width:$tablet-width) {
+    display: none;
   }
 }
 

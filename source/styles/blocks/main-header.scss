@@ -14,6 +14,10 @@
   cursor: pointer;
 }
 
+.main-header__toggle--closed {
+  mask-image: url("../../icons/stack.svg#icon-cross");
+}
+
 .main-header__toggle:hover,
 .main-header__toggle:focus-visible {
   opacity: 80%;
