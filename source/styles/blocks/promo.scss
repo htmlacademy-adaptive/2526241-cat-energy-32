@@ -61,6 +61,8 @@
     line-height: 26px;
     right: 145px;
     padding: 14px 26px;
+    right: 97px;
+    bottom: 3px;
   }
 
   @media (min-width:$desktop-width) {
@@ -80,7 +82,7 @@
     background-image: none;
     text-align: left;
     margin: 0;
-    padding: 65px 230px 50px 120px;
+    padding: 65px 185px 50px 164px;
     position: relative;
   }
 
@@ -112,12 +114,12 @@
 
 .promo__image {
   position: absolute;
-  left: 20px;
-  top: 170px;
+  left: 76px;
+  top: 264px;
 
   @media (min-width:$tablet-width) {
-    left: 30px;
-    top: 267px;
+    left: 75px;
+    top: 261px;
   }
 
   @media (min-width:$desktop-width) {

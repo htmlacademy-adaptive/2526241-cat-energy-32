@@ -1,5 +1,5 @@
 .variant__wrapper {
-  padding: 20px;
+  padding: 16px 30px 20px 27px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -46,8 +46,8 @@
     width: 200px;
     height: 211px;
     position: absolute;
-    top: 60px;
-    right: 40px;
+    top: 80px;
+    right: 43px;
   }
 
   @media (min-width:$desktop-width) {
@@ -70,7 +70,7 @@
     width: 268px;
     height: 200px;
     position: absolute;
-    top: 60px;
+    top: 95px;
     right: 15px;
   }
 
@@ -92,6 +92,8 @@
     font-size: 16px;
     line-height: 24px;
     grid-column: 1;
+    margin-top: 23px;
+    margin-bottom: 52px;
   }
 }
 
@@ -103,7 +105,7 @@
   text-transform: uppercase;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width:$tablet-width)  {
   .variant__link {
     font-size: 20px;
     line-height: 30px;
@@ -118,29 +120,32 @@
 .variant__link--slim:after {
   content: "";
   mask-image: url("../../icons/stack.svg#icon-arrow");
-  width: 24px;
+  width: 32px;
   height: 12px;
   display: inline-block;
   background-color: rgba(0, 0, 0, 1);
+  margin-left: 26px;
+  margin-bottom: 4px;
 }
 
 .variant__link--slim:hover:after {
-  width: 32px;
-  height: 10px;
+  mask-image: url("../../icons/stack.svg#icon-arrow_acive");
 }
 
 .variant__link--mass:after {
   content: "";
   mask-image: url("../../icons/stack.svg#icon-arrow");
-  width: 24px;
+  width: 32px;
   height: 12px;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #000000;
+  margin-left: 26px;
+  margin-bottom: 1px;
 }
 
 .variant__link--mass:hover:after {
   width: 32px;
-  height: 10px;
+  mask-image: url("../../icons/stack.svg#icon-arrow_acive");
 }
 
 .variant__item {
@@ -148,7 +153,7 @@
   padding: 24px 20px 22px 20px;
 
   @media (min-width:$tablet-width) {
-    padding: 77px 0 53px 53px;
+    padding: 80px 320px 53px 100px;
     display: grid;
     grid-template-columns: 1fr 330px;
     position: relative;

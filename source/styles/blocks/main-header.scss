@@ -1,6 +1,6 @@
 @media (min-width:$tablet-width) {
   .main-header {
-    padding: 25px 34px 0 30px;
+    padding: 25px 34px 0 74px;
   }
 }
 
@@ -52,6 +52,10 @@
 .main-header__logo-text {
   display: flex;
   align-items: center;
+
+  @media (min-width:$tablet-width) {
+    padding-left: 13px;
+  }
 }
 
 .main-header__nav-wrapper {
@@ -60,6 +64,8 @@
 
   @media (min-width:$tablet-width){
     display: flex;
+    margin: 0;
+    margin-left: 93px;
   }
 
   @media (min-width: $desktop-width) {

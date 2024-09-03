@@ -107,6 +107,11 @@
   align-items: center;
   border: #cdcdcd 1px solid;
   border-radius: 2px;
+
+  @media (min-width:$tablet-width) {
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 
 .example__qual {
