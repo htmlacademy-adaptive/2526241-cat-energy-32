@@ -7,7 +7,14 @@
   justify-content: center;
   gap: 24px;
   border-top: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;;
+  border-bottom: 1px solid #d9d9d9;
+
+  @media (min-width:$tablet-width) {
+    align-items: normal;
+    padding: 7px 126px;
+    border-top: none;
+    border-bottom: none;
+  }
 }
 
 .social__item {
