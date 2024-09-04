@@ -1,6 +1,10 @@
-@media (min-width:$tablet-width) {
-  .main-header {
+.main-header {
+  @media (min-width:$tablet-width) {
     padding: 25px 34px 0 31px;
+  }
+
+  @media (min-width:$desktop-width) {
+    padding: 56px 269px 0 112px;
   }
 }
 
