@@ -89,3 +89,39 @@
     justify-content: space-between;
   }
 }
+.main-header__toggle {
+  mask-image: url("../../icons/stack.svg#icon-burger");
+  background-color: rgba(0, 0, 0, 1);
+  min-width: 24px;
+  min-height: 24px;
+  padding: 4px, 0px, 4px, 0px;
+  border: 0;
+  cursor: pointer;
+}
+
+.main-header__toggle:hover,
+.main-header__toggle:focus-visible {
+  opacity: 80%;
+}
+
+.main-header__toggle:active {
+  opacity: 60%;
+}
+
+.main-header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 13px;
+  padding: 13px 21px 14px 21px;
+}
+
+.main-header__logo-text {
+  display: flex;
+  align-items: center;
+}
+
+.main-header__nav-wrapper {
+  margin: 0 auto;
+  padding: 0;
+}

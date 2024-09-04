@@ -82,6 +82,42 @@
   }
 }
 
+.variant__title--slim::before {
+  content:"";
+  width: 50px;
+  height: 53px;
+  background-image: url("../../icons/stack.svg#icon-cat_sit");
+  display: inline-block;
+  background-position: center;
+}
+
+.variant__title--mass:before {
+  content: "";
+  width: 67px;
+  height: 50px;
+  background-image: url("../../icons/stack.svg#icon-cat_walk");
+  display: inline-block;
+  background-position: center;
+}
+
+.variant__title--slim::before {
+  content:"";
+  width: 50px;
+  height: 53px;
+  background-image: url("../../icons/stack.svg#icon-cat_sit");
+  display: inline-block;
+  background-position: center;
+}
+
+.variant__title--mass:before {
+  content: "";
+  width: 67px;
+  height: 50px;
+  background-image: url("../../icons/stack.svg#icon-cat_walk");
+  display: inline-block;
+  background-position: center;
+}
+
 .variant__desc {
   font-size: 14px;
   line-height: 18px;
@@ -106,14 +142,6 @@
   text-transform: uppercase;
 }
 
-@media (min-width:$tablet-width)  {
-  .variant__link {
-    font-size: 20px;
-    line-height: 30px;
-    grid-column: 1;
-  }
-}
-
 .variant__link:active {
   opacity: 30%;
 }
@@ -121,48 +149,29 @@
 .variant__link--slim:after {
   content: "";
   mask-image: url("../../icons/stack.svg#icon-arrow");
-  width: 32px;
+  width: 24px;
   height: 12px;
   display: inline-block;
   background-color: rgba(0, 0, 0, 1);
-  margin-left: 26px;
-  margin-bottom: 4px;
 }
 
 .variant__link--slim:hover:after {
-  mask-image: url("../../icons/stack.svg#icon-arrow_acive");
+  width: 32px;
+  height: 10px;
 }
 
 .variant__link--mass:after {
   content: "";
   mask-image: url("../../icons/stack.svg#icon-arrow");
-  width: 32px;
+  width: 24px;
   height: 12px;
   display: inline-block;
-  background-color: #000000;
-  margin-left: 26px;
-  margin-bottom: 1px;
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .variant__link--mass:hover:after {
   width: 32px;
-  mask-image: url("../../icons/stack.svg#icon-arrow_acive");
-}
-
-.variant__item {
-  background-color: #f2f2f2;
-  padding: 24px 20px 22px 20px;
-
-  @media (min-width:$tablet-width) {
-    padding: 79px 317px 53px 53px;
-    display: grid;
-    grid-template-columns: 1fr 330px;
-    position: relative;
-  }
-
-  @media (min-width:$tablet-width) {
-    display: block;
-  }
+  height: 10px;
 }
 
 

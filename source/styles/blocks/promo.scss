@@ -8,8 +8,9 @@
   padding-top: 27px;
   font-size: 36px;
   line-height: 36px;
-  font-weight: 400;
-  font-family: "Oswald", sans-serif;
+}
+
+.promo__title--white {
   color: $base-color-text-light;
 
   @media (min-width:$tablet-width){
