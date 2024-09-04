@@ -1,0 +1,1 @@
+alert("\u0421\u043A\u0440\u0438\u043F\u0442 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442");var l=document.querySelector(".nav-menu"),e=document.querySelector(".main-header__toggle");l.classList.add("nav-menu--closed");e.onclick=function(){l.classList.toggle("nav-menu--closed"),e.classList.toggle("main-header__toggle--closed")};
