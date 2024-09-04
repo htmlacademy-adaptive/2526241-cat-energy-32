@@ -2,6 +2,37 @@
   font-family: "Oswald", sans-serif;
   font-size: 20px;
   line-height: 20px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  position: absolute;
+  width: 320px;
+  z-index: 1;
+
+  @media (min-width:$tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
+    position: static;
+  }
+}
+
+.nav-menu--closed {
+  @media (max-width:$tablet-width) {
+    display: none;
+  }
+}
+
+.nav-menu__list {
+  margin: 0 auto;
+  padding: 0;
+
+  @media (min-width:$tablet-width) {
+    display: flex;
+    flex-direction: row;
+    width: 436px;
+    flex-wrap: nowrap;;
+    justify-content: space-between;
+    gap: 34px;
+  }
 }
 
 .nav-menu__list-link {
